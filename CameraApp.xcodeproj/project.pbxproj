@@ -13,6 +13,7 @@
 		6DE2DECA25B69D800046654D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DE2DEC825B69D800046654D /* Main.storyboard */; };
 		6DE2DECC25B69D820046654D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DE2DECB25B69D820046654D /* Assets.xcassets */; };
 		6DE2DECF25B69D820046654D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DE2DECD25B69D820046654D /* LaunchScreen.storyboard */; };
+		6DE2DED925B6A2FE0046654D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE2DED825B6A2FE0046654D /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6DE2DECB25B69D820046654D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DE2DECE25B69D820046654D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DE2DED025B69D820046654D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DE2DED825B6A2FE0046654D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		6DE2DEC125B69D7F0046654D /* CameraApp */ = {
 			isa = PBXGroup;
 			children = (
+				6DE2DED725B6A2E60046654D /* Utils */,
 				6DE2DEC225B69D800046654D /* AppDelegate.swift */,
 				6DE2DEC425B69D800046654D /* SceneDelegate.swift */,
 				6DE2DEC625B69D800046654D /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				6DE2DED025B69D820046654D /* Info.plist */,
 			);
 			path = CameraApp;
+			sourceTree = "<group>";
+		};
+		6DE2DED725B6A2E60046654D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6DE2DED825B6A2FE0046654D /* Extensions.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 				6DE2DEC725B69D800046654D /* ViewController.swift in Sources */,
 				6DE2DEC325B69D800046654D /* AppDelegate.swift in Sources */,
 				6DE2DEC525B69D800046654D /* SceneDelegate.swift in Sources */,
+				6DE2DED925B6A2FE0046654D /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AC9DQSH5M;
 				INFOPLIST_FILE = CameraApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AC9DQSH5M;
 				INFOPLIST_FILE = CameraApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
